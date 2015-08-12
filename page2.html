@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home - My Site</title>
+    <link href="pageTransitions.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <!-- Animation class -->
+    <div id="main" class="m-scene next">
+      <!-- Classes that define elment animations -->
+      <nav>
+        <ul>
+          <li><a href="index.html" title="">Home</a></li>
+          <li><a href="page2.html" title="">Page 2</a></li>
+        </ul>
+      </nav>
+      <div class="scene_element scene_element--fadein">
+        <h1>This is the 2nd page</h1>
+        <h2>This is a sub headline</h2>
+        <img src="https://images.unsplash.com/photo-1438109491414-7198515b166b?fit=crop&fm=jpg&q=80&w=1050" alt="">
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="jquery.js"></script>
+    <script src="jquery.smoothState.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
